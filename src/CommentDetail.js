@@ -14,6 +14,9 @@ const CommentDetail = props => {
           <span className="date">{props.timeAgo}</span>
         </div>
         <div className="text">{props.content}</div>
+        <div>
+        <img alt="avatar" src={props.icon} width="40" height="40" />
+        </div>
       </div>
     </div>
   );
